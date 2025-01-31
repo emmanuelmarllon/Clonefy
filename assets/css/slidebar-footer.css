@@ -147,7 +147,9 @@ body {
   width: 113px;
   transition: all 0.5s ease;
 }
-
+.section-podcast-content .section-podcast-button {
+  width: 123px;
+}
 .sidebar .cookies {
   margin: 25px 20px;
 }
