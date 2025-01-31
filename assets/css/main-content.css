@@ -249,7 +249,7 @@
 }
 
 .artist-card {
-  background: #181818;
+  background: var(--cor-5);
   border-radius: 8px;
   -ms-flex: 1;
   flex: 1;
@@ -261,7 +261,7 @@
 }
 
 .artist-card:hover {
-  background-color: #252525;
+  background-color: var(--cor-4);
 }
 
 .card-img {
@@ -319,7 +319,7 @@
   right: 10px;
   top: 120px;
   padding: 18px;
-  background-color: #1db954;
+  background-color: var(--cor-5);
   border-radius: 100%;
   font-size: 14px;
   opacity: 0;
