@@ -3,7 +3,7 @@ const resultArtist = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById("result-playlists");
 
 function requestApi(searchTerm) {
-  const url = `http://localhost:3000/artists?name_like=${searchTerm}`;
+  const url = `https://679d254687618946e65477d3.mockapi.io/api/v1/artist?filter=${searchTerm}`;
   fetch(url)
     .then((response) => response.json())
     .then((result) => displayResults(result));
